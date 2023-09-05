@@ -12,6 +12,7 @@ System.register(["./application.js"], function (_export, _context) {
       Application = _applicationJs.Application;
     }],
     execute: function () {
+      alert("666")
       canvas = document.getElementById('GameCanvas');
       $p = canvas.parentElement;
       bcr = $p.getBoundingClientRect();
