@@ -6,7 +6,7 @@ System.register(["./application.js"], function (_export, _context) {
   function topLevelImport(url) {
     return System["import"](url);
   }
-
+  alert("fdfsdfsssf")
   return {
     setters: [function (_applicationJs) {
       Application = _applicationJs.Application;
